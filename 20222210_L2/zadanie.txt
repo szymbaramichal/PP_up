@@ -1,0 +1,158 @@
+W kazdym z ponizszych programów uzytkownik proszony jest o podanie jednej liczby. 
+Wskaz wszystkie pary programów, 
+które zawsze po podaniu takich samych liczb wyswietla takie same wartosci  
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+ while(k < 20)
+   k += 7;
+   printf("%d\n", k);
+
+ return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+ do{
+   k += 7; 
+   printf("%d\n", k);
+ }while(k < 20);
+
+ return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+ do{
+   k += 7; 
+ }while(k < 20); 
+   printf("%d\n", k);
+ return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+ while(k < 20){
+   k += 7;
+   printf("%d\n", k);
+ }
+
+ return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+   k += 7;
+   printf("%d\n", k);
+ while(k < 20)
+   k += 7;
+   printf("%d\n", k);
+
+ return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+ if(k < 20)
+ do{
+   k += 7; 
+   printf("%d\n", k);
+ }while(k < 20); 
+
+ return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+ if(k < 20);
+ do{
+   k += 7; 
+   printf("%d\n", k);
+ }while(k < 20);
+
+ return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+ int k;
+ printf("podaj liczbe\n");
+ scanf("%d", &k);
+
+   k += 7;
+   printf("%d\n", k);
+ while(k < 20){
+   k += 7;
+   printf("%d\n", k);
+ }
+
+ return 0;
+}
+
+
+
+
+
