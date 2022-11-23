@@ -1,1 +1,0 @@
-//Funkcja zwaracająca największą cyfrę z liczby
