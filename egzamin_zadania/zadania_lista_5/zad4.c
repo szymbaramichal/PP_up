@@ -4,17 +4,17 @@
 #include <stdio.h>
 #define Rozmiar 5
 
-int ileLiczPodzielnychPrzez(int *, int);
+int ile_liczb_podzielnych_przez(int *, int);
 
 int main(void) {
     int tab[Rozmiar] = {33, 20, 11, 0, 3};
     int k = 11;
-    int wynik = ileLiczPodzielnychPrzez(tab, k);
+    int wynik = ile_liczb_podzielnych_przez(tab, k);
     printf("Liczb podzielnych przez %d w tablicy jest: %d", k, wynik);
     return 0;
 }
 
-int ileLiczPodzielnychPrzez(int *tab, int k)
+int ile_liczb_podzielnych_przez(int *tab, int k)
 {
     //zmienna wartosciowa, domyślnie ma wartość 0
     int suma;
