@@ -25,13 +25,13 @@ int main(void) {
 
 void odwroc(int tab[W][K], int w, int k)
 {
-    for(int i = 0; i < W; i++)
+    for(int i = 0; i < w; i++)
     {
-        for(int j = 0; j < (K / 2); j++)
+        for(int j = 0; j < (k / 2); j++)
         {
             int temp = tab[i][j];
-            tab[i][j] = tab[i][k-j];
-            tab[i][k-j] = temp;
+            tab[i][j] = tab[i][k - 1 -j];
+            tab[i][k - 1 -j] = temp;
         }
     }
 }
