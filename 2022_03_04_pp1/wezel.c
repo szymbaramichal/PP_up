@@ -3,7 +3,8 @@
 struct wezel {
     int x;
     struct wezel *p;
-}
+};
+void f (struct wezel *q);
 
 int main() {
     struct wezel *q;
@@ -14,6 +15,7 @@ int main() {
     q->p->p = malloc(sizeof(struct wezel));
     q->p->p->x = 3;
     q->p->p->p = NULL;
+    f(q);
 }
 
 void f (struct wezel *q) {
